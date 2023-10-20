@@ -1,4 +1,4 @@
-import Button from './Button'
+import Botton from './Botton'
 import { useState } from 'react'
 function RegisterForm(){
     const [nombre, setNombre] = useState('')
@@ -17,7 +17,7 @@ function RegisterForm(){
                         <input type="email"  placeholder="Email" />                       
                         <input type="password" placeholder="Contraseña" />
                         <input type="password" placeholder="Confirmar contraseña" />
-                        <Button p={null}/>
+                        <Botton p={null}/>
                      </form>
                      
 
